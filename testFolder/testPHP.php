@@ -33,7 +33,7 @@ echo "<p>This is an HTML paragraph</p>";
 ?>
 <?php
 /*What are variables
-Values = Text/String or <numberor int*/
+Values = Text/String or <numberor int*/ 
 $name =     "Rebecca";
 $age =      32;
 $country =  Ireland;
@@ -47,6 +47,36 @@ if(strlen($password) < $minLenofPassword){
 " years old.";
 }
 
+$win = 1;
+$logged_in = 1;
+$age = 41;
+
+//If I win I will buy a car and if not I will ride my bike.
+
+if($win == 1){
+   echo "I will buy a car"; 
+}else{
+    echo "I will get on my bike";
+}
+
+//If User below is logged in then redirect to account.php and if not show login form
+
+if($logged_in == 1){
+    //header("Location: account.php");
+    echo "Success";
+}else{
+    include ('login.php');
+}
+
+//If age is between 25 and 40 then you can play.
+
+if($age >= 25 && $age <= 40){
+    echo "Welcome";
+}elseif ($age > 40) {
+    echo "You are too old to play!";
+}else{
+    echo "You are too young to play";
+}
 
 
 
