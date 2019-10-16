@@ -31,3 +31,26 @@ echo 45;
 echo "<p>This is an HTML paragraph</p>";
 
 ?>
+<?php
+/*What are variables
+Values = Text/String or <numberor int*/
+$name =     "Rebecca";
+$age =      32;
+$country =  Ireland;
+$password = '1234';
+$minLenofPassword = 4;
+
+if(strlen($password) < $minLenofPassword){
+    echo "Your Password does not meet the length requirement";
+}else{
+    echo "Your name is " . $name . ",your password meets the requirements, you are from " . $country . " and you are " . $age .
+" years old.";
+}
+
+
+
+
+
+
+
+
