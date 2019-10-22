@@ -15,7 +15,7 @@ $ageMax = 49;
 $AssociativeArrayPerformer = array("Fullname" => "Kelvin Hart", "Height" => "5 Inches", "Age" => "30");
 
 echo $AssociativeArrayPerformer[Height];
-
+echo "<br><br>";
 if($performerAge <= $ageMin){
     echo "Performer is too young";
 }elseif($performerAge >= $ageMax){
