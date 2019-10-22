@@ -78,6 +78,22 @@ if($age >= 25 && $age <= 40){
     echo "You are too young to play";
 }
 
+//Array holds multiple values in a variable
+
+$users = array("Rebecca", "Ireland", "32");
+
+
+echo $users[0];
+
+// Associative Array
+
+$users = array("fullname" => "Rebecca", "country" => "Ireland", "age" => "32");
+
+echo $users[country];
+
+
+
+
 
 
 
