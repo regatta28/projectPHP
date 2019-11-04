@@ -38,6 +38,12 @@ echo $fanClub;
 
 // $_SESSION - keeps all variables throughout the duration of your applications until destroyed
 
+$_SESSION["user_info"] = array(
+    "fullname" => "Paddy",
+    "email" => "st@st.ee"
+);
+echo $_SESSION["user_info"]["fullname"];
+
 // $_POST - collect data from forms
 
 // $_GET - is used to collect data from forms through the url
